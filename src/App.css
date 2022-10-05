@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
+  background: #eceaf0;
+}
+
+a:link,
+a:visited {
+  /* text-decoration: none; */
+  font-size: 12px;
+  font-weight: 400;
+  color: #918e9b;
+}
+
+.nav {
+  height: 55px;
+  background: #f55a5a;
+}
+
+.nav__container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.nav__container img {
+  margin-right: 7px;
+}
+
+.card-container {
+  padding: 18px 40px;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.grid--1x2 {
+  display: grid;
+  grid-template-columns: 125px auto;
+  gap: 20px;
+}
+
+.country__img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+.header__wrapper {
+  margin-top: 15px;
+  margin-bottom: 4px;
+}
+.country__name {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 400;
+  color: #2b283a;
+  margin-left: 4px;
+  margin-right: 12px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  color: #2b283a;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 11px;
+  color: #2b283a;
+}
+
+.border {
+  margin: 18px;
+  border-top: 1px solid red;
+}
+/* Photos from Unsplash
+(can use these URLs as your img src)
+
+Japan
+https://source.unsplash.com/WLxQvbMyfas
+
+Australia
+https://source.unsplash.com/JmuyB_LibRo
+
+Norway
+https://source.unsplash.com/3PeSjpLVtLg */
